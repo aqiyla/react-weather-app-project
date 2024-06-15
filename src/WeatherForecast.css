@@ -3,6 +3,15 @@
   padding-top: 24px;
 }
 
+.WeatherForecast-day {
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.WeatherForecast-temperatures {
+  color: #097941;
+  margin-top: 10px;
+}
+
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
