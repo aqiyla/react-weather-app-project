@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/aqiyla?tab=repositories"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Aqiyla McLean
           </a>
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://github.com/aqiyla/react-weather-app-project"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
@@ -28,7 +28,7 @@ export default function App() {
           <a
             href="https://vocal-kashata-d266ed.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             hosted on Netlify.
           </a>
