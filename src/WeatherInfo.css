@@ -1,6 +1,7 @@
 .weather-forecast-icon {
   width: 78px;
   height: 78px;
+  margin-right: 5px;
   display: inline-flex;
 }
 
