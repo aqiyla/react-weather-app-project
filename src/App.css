@@ -8,14 +8,14 @@
 }
 
 body {
-  background: #b6cdbd;
+  background: var(--mint);
   font-family: "Poppins", sans-serif;
 }
 
 .App a {
   cursor: pointer;
   text-decoration: none;
-  color: #077940;
+  color: var(--secondary-color);
   background-color: transparent;
 }
 

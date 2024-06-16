@@ -5,5 +5,5 @@
 }
 
 .weather-details strong {
-  color: #077940;
+  color: var(--primary-color);
 }

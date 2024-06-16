@@ -4,12 +4,17 @@
 }
 
 .WeatherForecast-day {
-  color: rgba(39, 33, 66, 0.4);
+  color: var(--secondary-color);
+  margin-bottom: 30px;
 }
 
 .WeatherForecast-temperatures {
-  color: #097941;
-  margin-top: 10px;
+  color: var(--secondary-color);
+  margin-top: 30px;
+}
+
+.WeatherForecast-temperature-max {
+  font-weight: bold;
 }
 
 .WeatherForecast-temperature-min {

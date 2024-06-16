@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #004a2f;
+  --secondary-color: #097941;
+  --mint: #f1f9f1;
+  --mustard: #efd511;
+}
+
 .Weather {
   font-family: Arial, Helvetica, sans-serif;
   padding: 24px;
@@ -8,15 +15,26 @@
 }
 
 .Weather .search-button {
+  background: var(--primary-color);
   border: none;
   color: white;
 }
+
+.Weather .city-input {
+  background: var(--mint);
+  color: var(--secondary-color);
+  border: none;
+}
 .Weather h1 {
-  color: black;
-  font-size: 28px;
+  color: var(--primary-color);
+  font-size: 30px;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 28px;
+}
+
+.Weather h2 {
+  color: var(--primary-color);
 }
 
 .Weather ul {
@@ -27,7 +45,7 @@
 }
 
 .Weather li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
@@ -46,10 +64,14 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   line-height: 1;
   top: -40px;
+}
+
+.Weather .unit-link {
+  color: var(--mustard);
 }
